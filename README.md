@@ -11,14 +11,14 @@ On Linux, change references to `gsed` to `sed` and `open -a Safari` to
 
 1. In psql,
 
-    \o test.html
-    select * from mytable; -- or any other query.
-    \o -- so that it no longer prints to file
+     \o test.html
+     select * from mytable; -- or any other query.
+     \o -- so that it no longer prints to file
 
 
 2. In shell,
 
-  make_pretty_table.sh test.html
+    make_pretty_table.sh test.html
 
 This will create a file `test_enhanced.html` and open it in a web browser.
 
