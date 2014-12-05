@@ -20,6 +20,11 @@ select * from mytable; -- or any other query.
 ```shell
 make_pretty_table.sh test.html
 ```
+or even better, while staying in psql
+```psql
+\! make_pretty_table.sh test.html
+```
+
 This will create a file `test_enhanced.html` and open it in a web browser.
 
 ## Example
@@ -31,11 +36,7 @@ In postgres,
 \o test.html
 \dt+
 \o
-```
-
-In shell,
-```shell
-make_pretty_table test.html
+\! make_pretty_table test.html
 ```
 
 ![unfiltered](https://raw.githubusercontent.com/ustun/postgresql-pretty-table/master/images/unfiltered.png "Unfiltered")
