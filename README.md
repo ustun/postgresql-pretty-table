@@ -35,5 +35,5 @@ In postgres,
 In shell,
     make_pretty_table test.html
 
-![unfiltered](https://github.com/ustun/postgresql-pretty-table/images/unfiltered.png "Unfiltered")
-![filtered](https://github.com/ustun/postgresql-pretty-table/images/filtered.png "Filtered")
+![unfiltered](https://raw.githubusercontent.com/ustun/postgresql-pretty-table/master/images/unfiltered.png "Unfiltered")
+![filtered](https://raw.githubusercontent.com/ustun/postgresql-pretty-table/master/images/filtered.png "Filtered")
