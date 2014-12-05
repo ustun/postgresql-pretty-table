@@ -11,9 +11,11 @@ On Linux, change references to `gsed` to `sed` and `open -a Safari` to
 
 1. In psql,
 ```sql
+\H -- html mode
 \o test.html
 select * from mytable; -- or any other query.
 \o -- so that it no longer prints to file
+\H -- disable html mode
 ```
 
 2. In shell,
@@ -33,6 +35,7 @@ To get all tables in the system in html,
 
 In postgres,
 ```sql
+\H -- html mode
 \o test.html
 \dt+
 \o
